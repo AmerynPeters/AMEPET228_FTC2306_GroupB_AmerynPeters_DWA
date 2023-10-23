@@ -1,0 +1,1 @@
+This repository is for the Dynamic WebApps course and contains all the folders with my submitted code projects. DWA1 - DWA14 is part one of the course which focuses on structuring Javascript code using code documentation, different programming paradigms, abstraction, inheritance and encapsulation.
