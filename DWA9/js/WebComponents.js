@@ -351,7 +351,7 @@ previewTemplate.innerHTML = `
  */
 class BookPreview extends HTMLElement {
     constructor() {
-        super();
+        super(); //used to call the constructor of its parent class to access the parent's properties and methods.
 
         // Create the variables to hold the DOM elements in the constructor.
         this.FRAGMENT = document.createDocumentFragment();

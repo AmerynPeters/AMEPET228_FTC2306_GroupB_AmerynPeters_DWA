@@ -87,7 +87,7 @@ export const descriptionOverlay = (button) => {
   <button class="overlay__button overlay__button_primary" data-list-close="">Close</button>
   </div>`;
 
-    //show the modal on the page
+    //show the modal on the page, in front of the other elements
     BOOK_SUMMARY.showModal();
     //close the modal when the close button is clicked.
     getHtml("[data-list-close]").addEventListener("click", () => {
