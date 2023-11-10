@@ -9,8 +9,8 @@ const MIN_NUMBER = -10;
 // use const because variable will always refer to element
 //Do not use css classes
 //because if it is changed then the response will stop
-//use element id's and (data-key)data attributes=allow you to add custom attributes
-//to HTML
+//use element id's and (data-key)data attributes which will allow you to add custom attributes
+//to the HTML
 const number = document.querySelector('[data-key="number"]');
 const subtract = document.querySelector('[data-key="subtract"]');
 const add = document.querySelector('[data-key="add"]');
@@ -47,8 +47,8 @@ const addHandler = () => {
     const newValue = parseInt(number.value) + 1;
     number.value = newValue;
     // to create a new max value
-    //    if (newValue === MAX_NUMBER){
-    //          add.disabled = true;
+    // if (newValue === MAX_NUMBER){
+    // add.disabled = true;
     //}
     //Did not work because both end up disabled if you reach max/min
 
