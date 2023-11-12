@@ -13,25 +13,39 @@
 // );
 
 // ReactDOM.render(page, document.getElementById("root"));
+// function Head() {
+//     return (
+
+//     );
 
 function Page() {
-    
-        return (
-            <div>
-                <h1>Why I am excited to learn React!</h1>
-                <ol>
-                    <li>
-                        It is going to make my life so much easier when I've
-                        learnt to use it properly
-                    </li>
-                    <li>
-                        It will save me a lot of time that I might spend
-                        debugging my code
-                    </li>
-                </ol>
-            </div>
-        );
-    
-};
+    return (
+        <div>
+            <header>
+                <nav>
+                    <img src="./react-logo.png" width="40px" />
+                </nav>
+            </header>
+            <h1>Why I am excited to learn React!</h1>
+            <ol>
+                <li>
+                    It is going to make my life so much easier when I've learnt
+                    to use it properly
+                </li>
+                <li>
+                    It will save me a lot of time that I might spend debugging
+                    my code
+                </li>
+            </ol>
+            <footer>
+                <small>© 2023 Peters development. All rights reserved.</small>
+            </footer>
+        </div>
+    );
+}
 
-ReactDOM.render(<Page/>, document.getElementById("root"))
+// function Foot() {
+//     return ()
+// }
+
+ReactDOM.render(<Page />, document.getElementById("root"));
